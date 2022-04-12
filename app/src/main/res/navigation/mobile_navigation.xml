@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bbc">
+
+    <fragment
+        android:id="@+id/nav_bbc"
+        android:name="com.workclone.newsapp.ui.home.BBCNewsFragment"
+        android:label="BBC News"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_fox"
+        android:name="com.workclone.newsapp.ui.gallery.FoxFragment"
+        android:label="Fox News"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_cnn"
+        android:name="com.workclone.newsapp.ui.slideshow.CNNNewsFragment"
+        android:label="CNN News"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_eco"
+        android:name="com.workclone.newsapp.ui.EconomistFragment"
+        android:label="The Economist"
+        tools:layout="@layout/fragment_economist" />
+    <fragment
+        android:id="@+id/nav_newYork"
+        android:name="com.workclone.newsapp.ui.NewYorkTimesFragment"
+        android:label="The New York Times"
+        tools:layout="@layout/fragment_new_york_times" />
+    <fragment
+        android:id="@+id/nav_tribune"
+        android:name="com.workclone.newsapp.ui.TribuneFragment"
+        android:label="The Tribune"
+        tools:layout="@layout/fragment_tribune" />
+</navigation>

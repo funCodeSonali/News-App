@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cnn"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="CNN News"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_fox"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Fox News"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_eco"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="The Economist"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_newYork"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="The New York Times"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_tribune"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="The Tribune"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_bbc"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="BBC News"
+            android:menuCategory="secondary"/>
+    </group>
+
+
+    <item android:title="Upcoming"
+        android:id="@+id/upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item  android:id="@+id/nav_nat"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="NatGeo Magazine"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+
+</menu>
